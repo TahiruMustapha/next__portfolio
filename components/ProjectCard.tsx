@@ -16,9 +16,10 @@ const ProjectCard = ({image, title , text}:Props) => {
           }
     }
   return (
+    
     <div
     onClick={handleFlip}
-    className='w-[450px] h-[280px] rounded-md cursor-pointer'>
+    className=' w-[450px] h-[280px] rounded-md cursor-pointer'>
       <motion.div
       className=' flip-card-inner w-full h-full'
       initial={false}
@@ -45,6 +46,7 @@ const ProjectCard = ({image, title , text}:Props) => {
          </div>
       </motion.div>
     </div>
+    
   )
 }
 

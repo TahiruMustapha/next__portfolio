@@ -14,7 +14,7 @@ const Navbar = () => {
             className="w-full h-full object-contain rounded-full"
             />
             </div>
-        <h1 className="text-white text-[25px] font-semibold">Tahiru Dev</h1>
+        <h1 className="text-white text-[15px] md:text-[25px] font-semibold">Tahiru Dev</h1>
         </div>
         <div className="flex flex-row gap-5 mb-2">
             {Socials.map((social)=>(

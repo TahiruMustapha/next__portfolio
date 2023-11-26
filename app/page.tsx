@@ -8,8 +8,8 @@ export default function Home() {
         className=" flex w-full h-full items-center bg-cover bg-center"
         style={{ backgroundImage: "url(/main-bg.webp)" }}
       >
-        <div className="pl-20 md:pl-40 pb-56 md:pb-20 flex flex-col gab-5 z-[10] max-w-[750px]">
-          <h1 className="text-[50px] text-white font-semibold">
+        <div className="pl-10  md:pl-40 pb-56 md:pb-20 flex flex-col gab-5 z-[10] max-w-[750px]">
+          <h1 className="  w-[17rem]  md:w-full text-[20px]  md:text-[50px]  text-white font-semibold">
             Make Anything Possible With
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-red-500">
               {""} Web Development
@@ -27,15 +27,15 @@ export default function Home() {
           <div className=" flex-col mt-3 md:flex-row gap-5 hidden md:flex">
             <Link
               href="/my-skills"
-              className=" group rounded-[20px] bg-blue-500 hover:bg-blue-400 px-5 py-3 text-lg text-white max-w-[200px]"
+              className=" group rounded-[20px] bg-blue-500 hover:bg-blue-400 px-5 py-3 text-lg text-white md:max-w-[200px]"
             >
               Learn More
             </Link>
             <Link
               href="/my-projects"
-              className=" group rounded-[20px] bg-transparent border border-white px-5 py-3 text-lg text-white max-w-[200px]"
+              className=" group rounded-[20px] bg-transparent border border-white md:px-5 px-3 md:py-3 py-2 text-sm md:text-lg text-white max-w-[150px] md:max-w-[200px]"
             >
-              {/* <div className=" absolute rounded-[20px] z-[1] bg-white inset-0 opacity-0 group hover:opacity-20 " /> */}
+              {/* <div className=" absolute roundedcd-[20px] z-[1] bg-white inset-0 opacity-0 group hover:opacity-20 " /> */}
               My Projects
             </Link>
             <Link

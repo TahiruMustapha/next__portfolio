@@ -6,8 +6,8 @@ const Page = () => {
   return (
     <div
     style={{backgroundImage:'url(/mountains.jpg)'}}
-    className='w-screen h-screen flex items-center justify-center bg-center bg-cover'>
-      <div className='grid grid-cols-2 gap-5 max-w-[90%] max-h-[90%]'>
+    className='w-screen px-[2rem] overflow-x-hidden h-screen flex items-center justify-center  bg-center bg-cover'>
+      <div className=' mt-[18rem] md:mt-16 flex flex-col items-center gap-5 md:grid md:grid-cols-2 md:gap-5 md:max-w-[90%] md:max-h-[90%]   h-[45rem]'>
          {Projects.map((project,index)=>(
             <ProjectCard
               key={index}
